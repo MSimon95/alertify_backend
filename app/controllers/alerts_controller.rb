@@ -33,7 +33,7 @@ class AlertsController < ApplicationController
     def destroy
     @alert = Alert.find(params[:id])
     @alert.destroy
-    
+
     # redirect_to alerts_path
     end
     
@@ -45,7 +45,7 @@ class AlertsController < ApplicationController
     end
     
     def alert_params
-    params.permit(:id,:event, :image, :info, :time, :place) 
+    params.permit(:id, :event, :image, :info, :date, :time, :place) 
     
     end
 

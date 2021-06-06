@@ -46,7 +46,7 @@ class GroupAlertsController < ApplicationController
     end
     
     def groupalert_params
-    params.require(:groupalert).permit(:event, :image, :info, :time, :place) 
+    params.require(:groupalert).permit(:group_id, :alert_id) 
     
     end
 

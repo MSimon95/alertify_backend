@@ -1,3 +1,3 @@
 class AlertSerializer < ActiveModel::Serializer
-  attributes :id, :event, :image, :info, :time, :place
+  attributes :id, :event, :image, :info, :date, :time, :place
 end

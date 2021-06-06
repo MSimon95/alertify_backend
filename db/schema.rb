@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_03_24_234115) do
     t.string "event"
     t.string "image"
     t.string "info"
+    t.string "date"
     t.string "time"
     t.string "place"
     t.datetime "created_at", precision: 6, null: false
@@ -26,7 +27,6 @@ ActiveRecord::Schema.define(version: 2021_03_24_234115) do
   end
 
   create_table "group_alerts", force: :cascade do |t|
-    t.string "date"
     t.bigint "group_id"
     t.bigint "alert_id"
     t.datetime "created_at", precision: 6, null: false
