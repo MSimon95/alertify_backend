@@ -9,6 +9,7 @@
 User.create(
   username: "Simon",
   password_digest: "123",
+  phone: "9174285006"
   bio: "just coding",
   image: "https://p.kindpng.com/picc/s/303-3034310_avatar-icon-deadpool-png-download-deadpool-avatar-icon.png"
 )
@@ -16,6 +17,7 @@ User.create(
 User.create(
   username: "Hasi",
   password_digest: "123",
+  phone: "9174858249"
   bio: "eCOM for Life",
   image: "https://spng.pngfind.com/pngs/s/5-52097_avatar-png-pic-vector-avatar-icon-png-transparent.png"
 )
@@ -23,6 +25,7 @@ User.create(
 User.create(
   username: "John",
   password_digest: "123",
+  phone: "9171234567"
   bio: "DUH",
   image: "https://spng.pngfind.com/pngs/s/5-52097_avatar-png-pic-vector-avatar-icon-png-transparent.png"
 )
