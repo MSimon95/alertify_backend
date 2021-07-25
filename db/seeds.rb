@@ -72,6 +72,10 @@ Alert.create(
     group_id: 4,
     alert_id: 1
   )
+  GroupAlert.create(
+    group_id: 1,
+    alert_id: 2
+  )
 
 
 puts "SEEEEEDED"
