@@ -34,7 +34,6 @@ class AlertsController < ApplicationController
     @alert = Alert.find(params[:id])
     @alert.destroy
 
-    # redirect_to alerts_path
     end
     
     
