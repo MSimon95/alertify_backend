@@ -33,7 +33,7 @@ class AlertsController < ApplicationController
     def destroy
     @alert = Alert.find(params[:id])
     @alert.destroy
-
+    render json: @alert   
     end
     
     
